@@ -15,3 +15,7 @@ You can set environment variables, then you can work from the command line in an
 After executing the program, append `:1145` (example: `127.0.0.1:1145`, the port can be changed in `fasthttp.py`) to access local files.
 
 執行程式後，訪問裝置的IP位址後附加`:1145`（例：`127.0.0.1:1145`，可以在`fasthttp.py`中更改埠），即可訪問本地檔。
+
+Use `pyinstaller -F -c fasthttp.py` to make executables.
+
+使用`pyinstaller -F -c fasthttp.py`來製作可執行檔案。
